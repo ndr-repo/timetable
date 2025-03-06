@@ -1,0 +1,2 @@
+﻿$workingDir = Get-Location
+Get-ChildItem -Path $workingdir -File -Recurse | Sort-Object -Property Length,LastWriteTimeUtc,LastAccessTimeUtc,CreationTimeUtc,Directory,Name -Descending | Format-Table -Property CreationTimeUtc,LastAccessTimeUtc,LastWriteTimeUtc,Name,Directory,Length -Wrap -AutoSize | more
