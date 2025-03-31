@@ -1,5 +1,5 @@
 # timetables
-Timeline views for Windows and Linux file systems. Made for forensic timelining and various recursive queries.
+Timeline views for Windows and Linux file systems. Made for forensic timelining and various recursive queries on endpoints and servers.
 
 - **timetable** creates a high-level forensic timeline of common file operations in your current working directory.
 
