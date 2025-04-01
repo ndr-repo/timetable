@@ -1,7 +1,7 @@
 # timetables
 Timeline views for Windows and Linux file systems. Made for forensic timelining and various recursive queries on endpoints and servers.
 
-- **timetable** creates a high-level forensic timeline of common file operations in your current working directory.
+- **timetable** - displays a timeline of files and directories in the current working dir sorted by UTC creation time, last access, and last write
 
 - **timetable_FL** - only show files (exclude directories), sort by length (size)
 
