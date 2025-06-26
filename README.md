@@ -1,4 +1,4 @@
-# timetables
+# timetable
 Timeline views for Windows and Linux file systems. Made for forensic timelining and various recursive queries on endpoints and servers.
 
 - **timetable** - displays a timeline of files and directories in the current working dir sorted by UTC creation time, last access, and last write
