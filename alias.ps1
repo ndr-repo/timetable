@@ -1,0 +1,1 @@
+Set-Alias -Name timetable -Value "powershell -Command {Get-ChildItem -Path $(pwd) | Select-Object -Property CreationTimeUtc,LastAccessTimeUtc,LastWriteTimeUtc,FullName | Sort-Object -Property CreationTimeUtc,LastAccessTimeUtc,LastWriteTimeUtc | ConvertTo-Csv -NoTypeInformation}" -Description "Timeline view from the command line for Windows and Linux file systems."
