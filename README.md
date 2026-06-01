@@ -1,10 +1,6 @@
 # timetable
-Timeline view from the command line for Windows and Linux file systems. Made for forensic timelining and various recursive queries on endpoints and servers.
+Timeline view from the command line for Windows and Linux file systems. Made for artifact timelining and discovery through recursive queries.
 
-- **timetable** - displays a timeline of files and directories in the current working dir sorted by UTC creation time, last access, and last write
+- **timetable** - recursive timeline of files in the current working directory - length (size), last UTC write time, path - sorted by last UTC write time
 
-- **timetable_FL** - only show files (exclude directories), sort by length (size)
-
-- **timetable_FLE** - only show files (exclude directories), sort by length (size) and file extension (ie: .ps1, .py, .exe)
-
-- **timetable_FLR** - only show files (exclude directories), sort by length (size), recursion into subdirectories
+- **extSearcher** - recursive file search by extension in the current working directory, length (size), last UTC write time, path - sorted by last UTC write time
