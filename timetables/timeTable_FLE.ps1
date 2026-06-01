@@ -1,2 +1,0 @@
-﻿$workingDir = pwd
-Get-ChildItem -Path $workingdir -File | Sort-Object -Property Length,LastWriteTimeUtc,Directory,Name -Descending | Sort-Object -Property Extension| Format-Table -Property LastWriteTimeUtc,LastAccessTimeUtc,Length,Name,Extension -Wrap -AutoSize | more
